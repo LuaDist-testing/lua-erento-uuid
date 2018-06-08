@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-erento-uuid"
-version = "1.0-2"
+version = "1.0-5"
 -- LuaDist source
 source = {
-  tag = "1.0-2",
+  tag = "1.0-5",
   url = "git://github.com/LuaDist-testing/lua-erento-uuid.git"
 }
 -- Original source
