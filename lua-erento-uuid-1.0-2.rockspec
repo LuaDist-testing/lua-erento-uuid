@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-erento-uuid"
-version = "1.0-1"
+version = "1.0-2"
 -- LuaDist source
 source = {
-  tag = "1.0-1",
+  tag = "1.0-2",
   url = "git://github.com/LuaDist-testing/lua-erento-uuid.git"
 }
 -- Original source
@@ -25,7 +25,7 @@ build = {
   type = "builtin",
     modules = {
       ["resty.uuid"] = "lib/resty/uuid.lua",
-      ["libuuid"] = {
+      libuuid = {
         sources = {},
         libraries = { "uuid" }
       }
