@@ -1,8 +1,16 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "lua-erento-uuid"
 version = "1.0-6"
+-- LuaDist source
 source = {
-  url = "git://github.com/erento/lua-resty-uuid.git"
+  tag = "1.0-6",
+  url = "git://github.com/LuaDist-testing/lua-erento-uuid.git"
 }
+-- Original source
+-- source = {
+--   url = "git://github.com/erento/lua-resty-uuid.git"
+-- }
 description = {
   summary = "LuaJIT FFI-based UUID library.",
   detailed = "LuaJIT FFI bindings for libuuid, a DCE compatible Universally Unique Identifier library.",
